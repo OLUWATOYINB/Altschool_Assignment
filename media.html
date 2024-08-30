@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./media.css">
+  <title>Media</title>
+  
+</head>
+<body>
+  <div>
+    <!-- -------Nav Bar----- -->
+    <nav>
+      <ul>
+        <li><a href="./index.html">About Page</a></li>
+        <li><a href="./table.html">Table Page</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- -----------------------Main Section----------------- -->
+  <section class="main">
+    <div>
+      <h1>Hello, I'm Oluwatoyin</h1>
+    </div>
+   <!-- ----------------First Media (Relative Image)------------- -->
+    <div class="Container">
+      <p>My full name is OLUWATOYIN BILIQEES ADEBISI</p>
+      <picture>
+        <source  media="(max-width:320px )" srcset="./assets/selfie-large.jpg"  >
+        <source  media="(max-width:480px )" srcset="./assets/naturee.jpg"  >
+        <source media="(max-width:600px )" srcset="./assets/grey.jpg"  >
+        <source  media="(max-width:1024px )" srcset="./assets/selfie-large.jpg"  > 
+        <source media="(max-width:1200px )" srcset="./assets/selfie-large.jpg" >
+        <img src="./assets/selfie-large.jpg" alt="Oluwatoyin's picture" width="304" height="540" >
+      </picture>
+      <p>Here is a selfie of me</p> 
+    </div>
+<!-- --------------------Second Media (Absolute Image)---------------- -->
+  <div>
+    <picture>
+      <source srcset="https://media.licdn.com/dms/image/D4D03AQEH_-x3v6StSg/profile-displayphoto-shrink_800_800/0/1698774457643?e=1727913600&v=beta&t=0gYiyrbwbtpxmSDHmXg7cvBldE93ZxgWAKZnDM6KCFs" media="(min-width:320px )" >
+      <source srcset="https://media.licdn.com/dms/image/D4D03AQEH_-x3v6StSg/profile-displayphoto-shrink_800_800/0/1698774457643?e=1727913600&v=beta&t=0gYiyrbwbtpxmSDHmXg7cvBldE93ZxgWAKZnDM6KCFs" media="(min-width:600px )">
+      <source srcset="https://media.licdn.com/dms/image/D4D03AQEH_-x3v6StSg/profile-displayphoto-shrink_800_800/0/1698774457643?e=1727913600&v=beta&t=0gYiyrbwbtpxmSDHmXg7cvBldE93ZxgWAKZnDM6KCFs" media="(min-width:1200px )" >
+      <source srcset="https://media.licdn.com/dms/image/D4D03AQEH_-x3v6StSg/profile-displayphoto-shrink_800_800/0/1698774457643?e=1727913600&v=beta&t=0gYiyrbwbtpxmSDHmXg7cvBldE93ZxgWAKZnDM6KCFs" media="(min-width:1920px )" >
+      <img src="https://media.licdn.com/dms/image/D4D03AQEH_-x3v6StSg/profile-displayphoto-shrink_800_800/0/1698774457643?e=1727913600&v=beta&t=0gYiyrbwbtpxmSDHmXg7cvBldE93ZxgWAKZnDM6KCFs" 
+      alt="LinkedIn profile picture" width="400" height="400">
+    </picture>
+    <p>My linkedIn profile picture</p>
+  </div>
+     <!-- ---------------------Third Media(Absolute Image)------------------ -->
+  <div>
+    <picture>
+      <source srcset="" media="(min-width:1200px )" >
+      <source srcset="" media="(min-width:992px )">
+      <source srcset="" media="(min-width:768px )" >
+      <img src="https://media.istockphoto.com/id/1441488898/photo/milking-cows-eating-stock-feed-in-cowshed.jpg?s=2048x2048&w=is&k=20&c=Ta2EE_IeoMCzv5Uq0A8UsGz5IxbKU80OkuJW2R6Up0I="
+       alt="Holstein-friesian cow" width="400" height="400">
+    </picture>
+    <p>I have a background in Animal Science.This is a picture showing Holstein-friesian breed of cattle. 
+      <br>They are diary cattle and are known to produce the largest amount of milk.</p>
+  </div>
+<!-- ----------------------Fourth Media (Audio)--------------- -->
+    <div>
+      <h3>This is my favorite song at the moment</h3>
+      <audio src="./assets/Sam_Opoku_-_Old.mp3" loop controls></audio>
+      <p>A song titled <b>OLD</b> by <b>Sam Opoku</b></p>
+    </div>
+    <div>
+<!-- ----------------------Fifth Media (video)--------------- -->
+    <div>
+      <video src="./assets/213027_tiny.mp4" controls width="320" height=""></video>
+      <p>I so much love nature, the green grass, waterfalls, ocean, beach, sunset anything partaining to nature</p>
+    </div>
+
+  </section>
+
+  <!-- ----------------------Footer--------------- -->
+  <footer>
+    <p>copyright&copy;2024: Designed by Oluwtoyin</p>
+  </footer>
+  
+
+  
+</body>
+</html>

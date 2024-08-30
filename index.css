@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  box-sizing: border-box; 
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 10px 16px;
+  justify-content: space-between;
+}
+
+.breadcrumb ul li a{
+  text-decoration: none;
+  line-height: 36px;
+  color: white;
+  padding: 10px;
+}
+
+.breadcrumb ul li a:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+  color: pink;
+
+}
+
+.container{
+ text-align: center;
+ line-height: 1.6;
+  height: 100vh;
+  padding-block: 30px;
+  padding-inline: 20px;
+  
+}
+
+
+#about{
+  padding:20px ;
+  color: bisque;
+
+}
+
+#about h1{
+  color:pink;
+ 
+  text-align: center;
+}
+
+#intro{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#identity{
+  padding: 40px;
+}
+
+#course{
+  padding: 40px;
+}
+
+#reasons{
+  padding: 40px;
+}
+
+#goals{
+  padding: 40px;
+}
+[href="#top"]{
+  text-decoration: none;
+  color: blueviolet;
+}
+[href="#top"]:hover{
+  text-decoration: wavy;
+  color: blue;
+  transition: 0.2s;
+}
+
+p{
+  color: white;
+}
+
+h3{
+  color: #e88c8b;
+}
+
+footer{
+  padding: 20px;
+  text-align: center;
+  background-color: #e88c8b;
+
+}
+
+footer a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #e88c8b;
+}
+
+footer a:hover{
+  color: blue;
+  transition: 0.2s;
+}
+
+footer p{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #e88c8b;
+
+}
+
+@media(max-width:700px){
+  .breadcrumb ul li a{
+    text-decoration: none;
+    line-height: 36px;
+    color: burlywood;
+    padding: 10px;
+  }
+}
